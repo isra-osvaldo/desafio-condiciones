@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "exercise-1"
+    "exercise-2"
+    "exercise-3";
+}
+
+.btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #222222;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    cursor: pointer;
+    font-size: .6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: rgb(31, 31, 31);
+}
+
+.exercise-1 {
+    grid-area: exercise-1;
+    min-height: 100vh;
+}
+
+h2,
+h4 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.principal-cointainer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container-img {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-img img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* EXERCISE 2 */
+.exercise-2 {
+    grid-area: exercise-2;
+    min-height: 100vh;
+    margin-bottom: 100px;
+}
+
+.message-stickers {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container-stickers {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-sticker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box-sticker img {
+    width: 180px;
+}
+
+.input-number {
+    text-align: center;
+    border: none;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.output-message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-validate {
+    width: 40%;
+}
+
+.exercise-3 {
+    grid-area: exercise-3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-exercise-3 {
+    margin: 0;
+}
+
+.box-principal-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn-ingresar {
+    width: 60%;
+}
+
+.output-result {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    body {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50%);
+        grid-template-areas: 
+        "exercise-1 exercise-3"
+        "exercise-2 exercise-2";   
+        height: 100vh;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+
+    .exercise-1,
+    .exercise-2,
+    .exercise-3  {
+        border: .5px solid #333;
+        min-height: 50vh;
+
+    }
+
+    /* .exercise-1 {
+        background-color: red;
+    }
+
+    .exercise-3 {
+        background-color: blue; 
+    }
+
+    .exercise-2 {
+        background-color: green;
+    } */
+
+
+    .principal-cointainer-1 {
+        height: auto;
+    }
+
+    .container-img img {
+        width: 220px;
+        border-radius: 10px;
+    }
+
+    .exercise-2 {
+        height: max-content;
+    }
+
+    .container-stickers {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .message-stickers {
+        margin-top: 15px;
+    }
+
+    .box-sticker img {
+        width: 140px;
+    }
+
+    .btn-validate {
+        width: 15%;
+    }
+
+    .btn-ingresar {
+        width: 40%;
+    }
+
+}
