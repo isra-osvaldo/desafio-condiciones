@@ -170,23 +170,10 @@ h4 {
     .exercise-1,
     .exercise-2,
     .exercise-3  {
-        border: .5px solid #333;
+        border: .8px dotted  #989898;
         min-height: 50vh;
 
     }
-
-    /* .exercise-1 {
-        background-color: red;
-    }
-
-    .exercise-3 {
-        background-color: blue; 
-    }
-
-    .exercise-2 {
-        background-color: green;
-    } */
-
 
     .principal-cointainer-1 {
         height: auto;
