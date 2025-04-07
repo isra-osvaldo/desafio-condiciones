@@ -51,6 +51,8 @@ h2,
 h4 {
     text-align: center;
     margin-top: 40px;
+    color: #3d3939;
+    font-weight: 500;
 }
 
 .principal-cointainer-1 {
@@ -138,6 +140,7 @@ h4 {
 
 .title-exercise-3 {
     margin: 0;
+    font-weight: 700;
 }
 
 .box-principal-3 {
@@ -154,6 +157,7 @@ h4 {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    gap: 5px;
 }
 
 .btn-ingresar {
