@@ -188,6 +188,11 @@ select {
         margin-top: 20px;
     }
 
+    .exercise-1 h4 {
+        margin-top: 15px;
+        margin-inline: 10px;
+    }
+
     .exercise-1,
     .exercise-2,
     .exercise-3  {
@@ -231,6 +236,10 @@ select {
 
     .btn-ingresar {
         width: 40%;
+    }
+
+    .box-button {
+        margin-bottom: 20px;
     }
 
 }
