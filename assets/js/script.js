@@ -30,6 +30,7 @@ $btnValidate.addEventListener('click', () => {
         $outputMessage.style.color = 'red'
     } else {
         $outputMessage.innerHTML = `Total de stickers: ${totalStickers} ✅ `
+        $outputMessage.style.color = 'green'
         
     }
 })
