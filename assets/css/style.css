@@ -71,6 +71,7 @@ h4 {
 .container-img img {
     width: 80%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* EXERCISE 2 */

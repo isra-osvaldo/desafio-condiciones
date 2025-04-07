@@ -11,8 +11,6 @@ $imgLulu.addEventListener('click', () => {
     }
 })
 
-
-
 // Ejercicio 2
 const $btnValidate = document.querySelector('.btn-validate')
 
@@ -37,7 +35,6 @@ $btnValidate.addEventListener('click', () => {
 })
 
 // Ejercicio 3 
-
 const $btnIngresar = document.querySelector('.btn-ingresar')
 
 $btnIngresar.addEventListener('click', () => {
