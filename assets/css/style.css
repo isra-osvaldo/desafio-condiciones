@@ -91,7 +91,9 @@ h4 {
 
 .container-stickers {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
 .box-sticker {
@@ -99,12 +101,12 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     margin-bottom: 20px;
 }
 
 .box-sticker img {
-    width: 180px;
+    width: 150px;
 }
 
 .input-number {
